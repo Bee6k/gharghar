@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Search, MapPin, Home, ShieldCheck } from 'lucide-react';
+import { Search, MapPin, Home as HomeIcon, ShieldCheck } from 'lucide-react'; // Use alias for icon
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -12,7 +12,7 @@ const featuredListings = [
   { id: 3, title: 'Cozy Suburban Bungalow', price: '$410,000', location: 'Denver, CO', image: 'https://picsum.photos/600/400?random=3', dataAiHint: 'suburban house garden' },
 ];
 
-export default function Home() {
+export default function HomePage() { // Renamed from Home to HomePage
   return (
     <div className="space-y-12">
       {/* Hero Section */}
@@ -83,7 +83,7 @@ export default function Home() {
           <Card className="text-center shadow-md hover:shadow-lg transition-shadow duration-300">
             <CardHeader>
               <div className="flex justify-center mb-4">
-                 <Home size={40} className="text-accent" />
+                 <HomeIcon size={40} className="text-accent" /> {/* Use aliased icon */}
               </div>
               <CardTitle>Vast Selection</CardTitle>
             </CardHeader>
