@@ -19,8 +19,8 @@ export default function HomePage() { // Renamed from Home to HomePage
       <section className="relative bg-gradient-to-r from-secondary to-background py-20 px-4 rounded-lg shadow-md overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10 z-0"></div>
         <div className="container mx-auto text-center relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary-foreground mix-blend-overlay">Find Your Dream Home with GharGhar</h1>
-          <p className="text-lg md:text-xl mb-8 text-primary-foreground mix-blend-overlay">Search properties, connect with sellers, and make your move.</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Find Your Dream Home with GharGhar</h1>
+          <p className="text-lg md:text-xl mb-8 text-foreground">Search properties, connect with sellers, and make your move.</p>
           <form className="max-w-2xl mx-auto bg-card p-4 rounded-lg shadow-lg flex items-center gap-2">
             <div className="relative flex-grow">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" size={20} />
