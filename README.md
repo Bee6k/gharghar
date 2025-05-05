@@ -1,9 +1,6 @@
 # 🏠 GharGhar – Modern Real Estate Platform  
 
 *A full-stack property marketplace connecting buyers and sellers with intuitive tools.*  
-
-![Demo](https://github.com/Bee6k/gharghar/blob/main/frontend/static/img/demo.gif) *(Replace with actual GIF/screenshot)*  
-
 ---
 
 ## ✨ **Why GharGhar?**  
